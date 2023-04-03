@@ -1,0 +1,21 @@
+1) Username Setting
+
+git config --global user.name "USERNAME"
+
+2) Email
+
+git config --global user.email USER@EMAIL.com
+
+3) Default Editor 
+
+git config --global core.editor "code"
+
+4) Default Open the Setting
+
+git config --global -e
+
+5) autocrlf for windows and mac/linux
+
+git config --global core.autocrlf true     // for windows
+
+git config --global core.autocrlf input    // for linux/Mac
